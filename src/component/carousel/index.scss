@@ -1,0 +1,74 @@
+.container-carousel {
+  position: relative;
+  margin: 6% 5%;
+
+  .carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+
+  .carousel-item {
+    background: linear-gradient(
+      180deg,
+      rgba(247, 247, 248, 0) 0%,
+      #f6effb 63.22%
+    );
+    border-radius: 30px;
+    width: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+    display: flex;
+
+    .item-left {
+      width: 40%;
+      padding: 3rem 1rem 3rem 3rem;
+
+      .title {
+        font-size: 3rem;
+        font-weight: 700;
+        margin: 0;
+      }
+      .population {
+        font-size: 1rem;
+        font-weight: 700;
+      }
+      .description {
+        line-height: 2rem;
+        font-weight: 300;
+      }
+    }
+    .item-right {
+      width: 60%;
+      padding: 3rem 3rem 3rem 1rem;
+      img {
+        border-radius: 30px;
+        width: 100%;
+      }
+    }
+  }
+
+  .btn {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    padding-left: 14px;
+    background-color: rgba(233, 231, 231, 0.568);
+    border-radius: 100%;
+    border: none;
+  }
+
+  .btn-left {
+    top: 44%;
+    left: 0;
+  }
+  .btn-right {
+    right: 0;
+    top: 44%;
+  }
+  .active {
+    cursor: pointer;
+    background: rgb(20, 110, 190);
+  }
+}
