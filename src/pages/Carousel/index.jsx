@@ -5,7 +5,7 @@ import { cities } from "./dataCarousel.js";
 const Index = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold">Carousel Component</h1>
+      <h1 className="text-4xl font-bold">Carousel</h1>
       <Carousel datas={cities} />
       <div className="mt-[4rem]">
         <p className="text-2xl font-bold mb-[2rem]">

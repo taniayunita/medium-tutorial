@@ -24,12 +24,12 @@
       cursor: pointer;
 
       &:hover {
-        color: rgb(233, 24, 222);
+        color: rgba(0, 109, 199, 0.986);
       }
     }
     .active {
-      background-color: rgba(247, 108, 240, 0.445);
-      color: rgb(233, 24, 222);
+      background-color: rgba(97, 173, 236, 0.418);
+      color: rgba(0, 109, 199, 0.986);
     }
   }
 }
