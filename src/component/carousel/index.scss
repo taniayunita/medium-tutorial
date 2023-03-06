@@ -1,6 +1,5 @@
 .container-carousel {
   position: relative;
-  margin: 6% 5%;
 
   .carousel {
     display: flex;
@@ -69,6 +68,10 @@
   }
   .active {
     cursor: pointer;
-    background: rgb(20, 110, 190);
+    background: rgb(136, 20, 190);
+  }
+  .icon {
+    font-size: 18px;
+    color: #fff;
   }
 }

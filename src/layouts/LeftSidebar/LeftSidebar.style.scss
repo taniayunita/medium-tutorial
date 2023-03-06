@@ -1,0 +1,10 @@
+.container-layout {
+  display: flex;
+  min-height: 100vh;
+
+  .right-content {
+    width: 78vw;
+    margin-left: 20vw;
+    padding: 3rem;
+  }
+}
